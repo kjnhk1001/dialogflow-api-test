@@ -1,0 +1,44 @@
+{
+  "weekly_sales_report": {
+    "start_date": "2024-09-01",
+    "end_date": "2024-09-07",
+    "products": [
+      {
+        "category": "laptop",
+        "sales": [
+          { "date": "2024-09-01", "units_sold": 25, "revenue": 50000 },
+          { "date": "2024-09-02", "units_sold": 30, "revenue": 60000 },
+          { "date": "2024-09-03", "units_sold": 22, "revenue": 44000 },
+          { "date": "2024-09-04", "units_sold": 28, "revenue": 56000 },
+          { "date": "2024-09-05", "units_sold": 35, "revenue": 70000 },
+          { "date": "2024-09-06", "units_sold": 40, "revenue": 80000 },
+          { "date": "2024-09-07", "units_sold": 45, "revenue": 90000 }
+        ]
+      },
+      {
+        "category": "smartphone",
+        "sales": [
+          { "date": "2024-09-01", "units_sold": 100, "revenue": 100000 },
+          { "date": "2024-09-02", "units_sold": 120, "revenue": 120000 },
+          { "date": "2024-09-03", "units_sold": 110, "revenue": 110000 },
+          { "date": "2024-09-04", "units_sold": 115, "revenue": 115000 },
+          { "date": "2024-09-05", "units_sold": 130, "revenue": 130000 },
+          { "date": "2024-09-06", "units_sold": 140, "revenue": 140000 },
+          { "date": "2024-09-07", "units_sold": 150, "revenue": 150000 }
+        ]
+      },
+      {
+        "category": "tablet",
+        "sales": [
+          { "date": "2024-09-01", "units_sold": 60, "revenue": 30000 },
+          { "date": "2024-09-02", "units_sold": 65, "revenue": 32500 },
+          { "date": "2024-09-03", "units_sold": 55, "revenue": 27500 },
+          { "date": "2024-09-04", "units_sold": 70, "revenue": 35000 },
+          { "date": "2024-09-05", "units_sold": 75, "revenue": 37500 },
+          { "date": "2024-09-06", "units_sold": 80, "revenue": 40000 },
+          { "date": "2024-09-07", "units_sold": 85, "revenue": 42500 }
+        ]
+      }
+    ]
+  }
+}
