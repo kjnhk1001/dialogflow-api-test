@@ -1,0 +1,43 @@
+{
+  "inventory_report": {
+    "date": "2024-09-07",
+    "products": [
+      {
+        "category": "laptop",
+        "current_stock": 150,
+        "incoming_stock": 50,
+        "outgoing_stock": 30,
+        "last_updated": "2024-09-06",
+        "details": {
+          "low_stock_threshold": 20,
+          "supplier": "TechCorp",
+          "next_shipment_date": "2024-09-15"
+        }
+      },
+      {
+        "category": "smartphone",
+        "current_stock": 500,
+        "incoming_stock": 200,
+        "outgoing_stock": 100,
+        "last_updated": "2024-09-05",
+        "details": {
+          "low_stock_threshold": 50,
+          "supplier": "MobileMasters",
+          "next_shipment_date": "2024-09-10"
+        }
+      },
+      {
+        "category": "tablet",
+        "current_stock": 300,
+        "incoming_stock": 100,
+        "outgoing_stock": 80,
+        "last_updated": "2024-09-04",
+        "details": {
+          "low_stock_threshold": 30,
+          "supplier": "TabTech",
+          "next_shipment_date": "2024-09-12"
+        }
+      }
+    ]
+  }
+}
