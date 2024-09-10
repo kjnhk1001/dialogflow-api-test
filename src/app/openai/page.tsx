@@ -1,4 +1,11 @@
-import { Chart } from "@/components/Chart";
+import { BarChart } from "@/components/BarChart";
+import { BubbleChart } from "@/components/BubbleChart";
+import { DoughnutChart } from "@/components/DoughnutChart";
+import { LineChart } from "@/components/LineChart";
+import { PieChart } from "@/components/PieChart";
+import { PolarAreaChart } from "@/components/PolarAreaChart";
+import { RadarChart } from "@/components/RadarChart";
+import SalesChart from "@/components/ReactCode";
 import { getMessages, sendMessage } from "@/lib/actions/openai";
 
 export default async function Home() {
@@ -20,7 +27,14 @@ export default async function Home() {
             <p>{message.content}</p>
           </div>
         ))}
-        <Chart />
+        <BarChart />
+        <LineChart />
+        <PieChart />
+        <DoughnutChart />
+        <RadarChart />
+        <PolarAreaChart />
+        <BubbleChart />
+        {/* <SalesChart /> */}
       </div>
 
       <form action={sendMessage} className="relative flex items-center">
